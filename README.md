@@ -1,4 +1,4 @@
-In Firebase, setup a production and development projects
+In Firebase, setup production and development projects
 Place the google-services.json file for each environment in either the dev or prod folders under the environment_files folder
 Ensure you have a local.properties file in the root of the android project.
 
