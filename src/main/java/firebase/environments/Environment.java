@@ -1,7 +1,6 @@
-package com.deyvoo;
+package main.java.firebase.environments;
 
 public enum Environment {
-
     DEV, PROD;
 
     static Environment getEnv(String env) {
@@ -11,10 +10,11 @@ public enum Environment {
 
         if (DEV.name().toLowerCase().equals(env.toLowerCase())) {
             return DEV;
-        } else if (PROD.name().toLowerCase().equals(env.toLowerCase())) {
+        }
+
+        if (PROD.name().toLowerCase().equals(env.toLowerCase())) {
             return PROD;
         }
         return null;
     }
-
 }

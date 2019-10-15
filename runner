@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd ./out/production/settings
+cd ./build/libs/ || exit
 
-/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin/java com/deyvoo/Main "$1"
+java -jar firebase-environments.jar "$1" "$2" "$3" "$4" "$5"
