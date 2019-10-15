@@ -1,5 +1,5 @@
 In Firebase, setup production and development projects.
-Place the google-services.json file for each environment in either the dev or prod folders under the environment_files folder.
+Place the google-services.json file for each environment in either the dev or prod folders under the environment_files inside the src/main/resources folder.
 Ensure you have a local.properties file in the root of the android project.
 
 In build.gradle, set the applicationId to localProperties["applicationId"].
