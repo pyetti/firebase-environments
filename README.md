@@ -9,4 +9,4 @@ In the popup, pass in either prod or dev.
 
 You should see the correct google-services.json file show up in the app folder, and the environment and applicationId properties set in the local.properties file.
 
-Ios is not currently supported. Pull requests welcome.
+iOS is not currently supported. Pull requests welcome.
